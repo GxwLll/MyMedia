@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="app_mian_blue_2269d4">#2269d4</color>
+    <color name="app_mian_blue2_1e72b7">#1e72b7</color>
+    <color name="app_assist_yellow_d87909">#d87909</color>
+    <color name="app_assist_yellow2_ee992b">#ee992b</color>
+    <color name="app_bg_f0f0f0">#f0f0f0</color>
+    <color name="address_line_6fa3f0">#2269d4</color>
+    <color name="bg_table_6fa3f0">#6fa3f0</color>
+    <color name="bg_table_edf4ff">#edf4ff</color>
+    <color name="bg_table_line_dddddd">#dddddd</color>
+
+    <!-- 底部导航 -->
+    <color name="tab_background">#037BFF</color>
+    <color name="tab_background_pressed">#f00</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <!-- 对话框 -->
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <!-- 下拉刷新 -->
+    <color name="gold">#999999</color>
+    <color name="pull_refresh_textview">#333333</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- 字体颜色 -->
+    <color name="tv_black_333">#333333</color>
+    <color name="tv_gray_666">#666666</color>
+    <color name="tv_lightgray_999">#999999</color>
+    <color name="tv_green">#41f607</color>
+    <color name="tv_white">#ffffff</color>
+    <color name="tv_background">#9bb9c6</color>
+    <color name="tv_no_chande_b8c7de">#b8c7de</color>
+    <!-- 橘色 -->
+    <color name="tv_checkBox_fd8b27">#fd8b27</color>
+    <color name="tv_red_ff3333">#ff3333</color>
+</resources>

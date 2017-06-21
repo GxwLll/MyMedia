@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MyMedia</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">设置</string>
+    <!-- 侧滑栏 文本-->
+    <string name="tv_left_home">首页</string>
+    <string name="tv_left_photo">相册</string>
+    <string name="tv_left_member">我的大会员</string>
+    <string name="tv_left_cache">离线缓存</string>
+    <string name="tv_left_follow">我的关注</string>
+    <string name="tv_left_setting">设置</string>
+
+    <!-- 下拉刷新 -->
+    <string name="p2refresh_head_load_more">加载更多</string>
+    <string name="p2refresh_end_load_more">更    多</string>
+    <string name="p2refresh_end_load_finish">已经全部加载</string>
+    <string name="p2refresh_end_click_load_more">点击加载</string>
+    <string name="p2refresh_release_refresh">松开刷新</string>
+    <string name="p2refresh_release_load_history">载入历史</string>
+    <string name="p2refresh_pull_to_refresh">下拉刷新</string>
+    <string name="p2refresh_doing_head_refresh">正在刷新&#8230;</string>
+    <string name="p2refresh_doing_end_refresh">加载中&#8230;</string>
+    <string name="p2refresh_refresh_lasttime">最近更新&#160;&#058;&#160;</string>
+
+</resources>

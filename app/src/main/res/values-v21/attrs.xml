@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="roundedimageview">
+        <attr name="border_thickness" format="dimension" />
+        <attr name="border_inside_color" format="color" />
+        <attr name="border_outside_color" format="color"></attr>
+    </declare-styleable>
+    
+       <declare-styleable name="PullToZoomScrollView">
+        <attr name="scrollHeadView" format="reference" />
+        <attr name="scrollContentView" format="reference" />
+        <attr name="scrollZoomView" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="PullToZoomListView">
+        <attr name="listHeadView" format="reference" />
+        <attr name="isHeadParallax" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="PullToZoomView">
+        <attr name="headerView" format="reference" />
+        <attr name="contentView" format="reference" />
+        <attr name="zoomView" format="reference" />
+        <attr name="isHeaderParallax" format="boolean" />
+    </declare-styleable>
+     <!-- 带有取消按钮和搜索图标的输入框 -->
+    <declare-styleable name="EditTextInput">
+        <!-- 设置search图标是否显示 -->
+        <attr name="searchIconVisibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="4" />
+            <enum name="gone" value="8" />
+        </attr>
+        <!-- 设置search图标的宽度 -->
+        <attr name="searchIconWidth" format="dimension" />
+        <!-- 设置search图标的高度 -->
+        <attr name="searchIconHeight" format="dimension" />
+        <!-- 设置clean按钮的高度 -->
+        <attr name="cleanBtnWidth" format="dimension" />
+        <!-- 设置clean按钮的高度 -->
+        <attr name="cleanBtnHeight" format="dimension" />
+        <!-- 输入内容的高度 -->
+        <attr name="inputTextSize" format="dimension" />
+         <!-- 默认显示的hint -->
+        <attr name="inputTextHint" format="string" />
+    </declare-styleable>
+     <string-array name="picture_and_take_photo_array">
+        <item>相册</item>
+        <item>拍照</item>
+    </string-array>
+</resources>

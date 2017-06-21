@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hf_base_title_lin"
+    android:layout_width="match_parent"
+    android:layout_height="49dp"
+    android:background="@drawable/img_base_title_bg" >
+
+    <RelativeLayout
+        android:id="@+id/nav_back"
+        android:layout_width="49dp"
+        android:layout_height="match_parent" >
+
+        <ImageView
+             android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_centerInParent="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/left"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/hf_base_btn_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/hf_base_right_lin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/hf_base_text_right"
+            style="@style/navigation_title"
+            android:layout_gravity="center"
+            android:layout_marginRight="14dp"
+            android:gravity="center"
+            android:textSize="@dimen/tv_hint_14sp"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/nav_title"
+        style="@style/navigation_title"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textSize="@dimen/tv_button_17sp"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
