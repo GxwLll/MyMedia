@@ -58,12 +58,17 @@ public class MainActivity extends AppCompatActivity
 //                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
 //                        .setAction("Action", null).show();
 
-//                APIClient.postLogin("15001324659", "ODg4ODg44", new HttpManager.HttpCallback() {
-//                    @Override
-//                    public void onSuccess(String msg) {
-//                        Log.i("GG",msg.toString());
-//                    }
-//                });
+                APIClient.postLogin("15001324659", "ODg4ODg44", new HttpManager.HttpCallback() {
+                    @Override
+                    public void onSuccess(String msg) {
+                        Log.i("GG",msg.toString());
+                        Log.i("GG",msg.toString());
+                        Log.i("GG",msg.toString());
+                        Log.i("GG",msg.toString());
+
+
+                    }
+                });
             }
         });
 
