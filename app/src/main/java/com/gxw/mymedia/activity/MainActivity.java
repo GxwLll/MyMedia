@@ -68,6 +68,12 @@ public class MainActivity extends AppCompatActivity
                         Log.i("GG",msg.toString());
                         Log.i("GG",msg.toString());
                         Log.i("GG",msg.toString());
+                        Log.i("GG",msg.toString());
+                        Log.i("GG",msg.toString());
+                        Log.i("GG",msg.toString());
+                        Log.i("GG",msg.toString());
+                        Log.i("GG",msg.toString());
+                        Log.i("GG",msg.toString());
 
 
                     }
