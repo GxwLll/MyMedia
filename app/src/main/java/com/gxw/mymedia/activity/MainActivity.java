@@ -62,18 +62,6 @@ public class MainActivity extends AppCompatActivity
                     @Override
                     public void onSuccess(String msg) {
                         Log.i("GG",msg.toString());
-                        Log.i("GG",msg.toString());
-                        Log.i("GG",msg.toString());
-                        Log.i("GG",msg.toString());
-                        Log.i("GG",msg.toString());
-                        Log.i("GG",msg.toString());
-                        Log.i("GG",msg.toString());
-                        Log.i("GG",msg.toString());
-                        Log.i("GG",msg.toString());
-                        Log.i("GG",msg.toString());
-                        Log.i("GG",msg.toString());
-                        Log.i("GG",msg.toString());
-                        Log.i("GG",msg.toString());
 
 
                     }
